@@ -1,0 +1,15 @@
+.App-end .component {
+  padding: 1rem;
+  color: blue;
+  border: 5px solid blue;
+}
+
+.App-end .component.red {
+  color: red;
+  border: 5px solid red;
+}
+
+.App-end .component.green {
+  color: green;
+  border: 5px solid green;
+}

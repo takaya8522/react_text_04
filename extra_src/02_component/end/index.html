@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="/libs/react.development.js"></script>
+    <script src="/libs/react-dom.development.js"></script>
+    <script src="/libs/babel-standalone.js"></script>
+</head>
+
+<body>
+    <div id="app"></div>
+    <script type="text/babel">
+        const appEl = document.querySelector('#app');
+        const root = ReactDOM.createRoot(appEl);
+        
+        // function Example() {
+        //     return <h1>Hello Components</h1>;
+        // }
+
+        // POINT コンポーネントの先頭は大文字とする
+        // POINT JSXが複数行の時は()で括る
+        const Example = () => (
+            <div>
+                <h1>Hello Components</h1>
+            </div>
+        );
+
+        const a = () => {
+            return
+            "戻り値";
+        }
+
+        console.log(a());
+
+        root.render(<Example />);
+    </script>
+</body>
+
+</html>

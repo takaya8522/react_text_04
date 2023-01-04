@@ -1,0 +1,9 @@
+.component {
+  padding: 1rem;
+  color: blue;
+  border: 5px solid blue;
+}
+
+div {
+  margin-bottom: 1.5rem;
+}

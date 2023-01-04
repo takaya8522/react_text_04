@@ -1,0 +1,12 @@
+.App-start .profile {
+  border: 3px solid red;
+  color: red;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.App-start .profile p {
+  font-size: 1.3em;
+}

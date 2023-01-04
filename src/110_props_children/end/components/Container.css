@@ -1,0 +1,9 @@
+.App-end .container {
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  border: 10px ridge goldenrod;
+  padding: 10px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
