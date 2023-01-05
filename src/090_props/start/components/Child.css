@@ -3,3 +3,15 @@
   color: blue;
   border: 5px solid blue;
 }
+
+.App-start .component.red {
+  padding: 1rem;
+  color: red;
+  border: 5px solid red;
+}
+
+.App-start .component.green {
+  padding: 1rem;
+  color: green ;
+  border: 5px solid green;
+}
