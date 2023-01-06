@@ -8,9 +8,6 @@ const profile = [
 const Example = () => {
   return (
     <div>
-      <h3>練習問題</h3>
-      <p>Profileコンポーネントの中身を変更して完成コードと同じ状態になるようにしてください。※なるべく分割代入を使用してください。
-      </p>
       <Profile
         name={profile[0].name}
         age={profile[0].age}
